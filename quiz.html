@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz</title>
+    <link rel="stylesheet" href="Style.css">
+</head>
+<body>
+    <div style="display: flex; justify-content: center;">
+        <label style="margin-right: 10px;">username</label>
+        <textarea id="username" type="text" placeholder="username"></textarea>
+    </div>
+    <form style="margin: 4cm; background-color: aqua; border-radius: 5px;">
+        <div id="fq">
+            <h3>HTML is abbreviation for?</h3>
+            <div class="bdiv">
+                <div class="divs">
+                    <div>
+                        <input type="radio" name="q1" id="cor1">
+                        <label for="q1">Hyper Text Mark up Language</label>
+                    </div>
+                    <div>
+                        <input type="radio" name="q1">
+                        <label for="q1">Hyper Table Marker Label</label>
+                    </div>
+                </div>
+                <div class="divs">
+                    <div>
+                        <input type="radio" name="q1">
+                        <label for="q1">How To manipulate Languages</label>
+                    </div>
+                    <div>
+                        <input type="radio" name="q1">
+                        <label for="q1">He To Make Label</label>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="sq">
+            <h3>What is OOP?</h3>
+            <div class="bdiv">
+                <div class="divs">
+                    <div>
+                        <input type="radio" name="q2">
+                        <label for="q2">Functions and Attributes</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="cor2" name="q2">
+                        <label for="q2">Classes, Functions and Attributes</label>
+                    </div>
+                </div>
+                <div class="divs">
+                    <div>
+                        <input type="radio" name="q2">
+                        <label for="q2">Only Classes</label>
+                    </div>
+                    <div>
+                        <input type="radio" name="q2">
+                        <label for="q2">Only Attributes</label>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="thq">
+            <h3>How to make an element move to the right?</h3>
+            <div class="bdiv">
+                <div class="divs">
+                    <div>
+                        <input type="radio" name="q3">
+                        <label for="q3">using margin</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="cor3" name="q3">
+                        <label for="q3">a and b</label>
+                    </div>
+                </div>
+                <div class="divs">
+                    <div>
+                        <input type="radio" name="q3">
+                        <label for="q3">using padding</label>
+                    </div>
+                    <div>
+                        <input type="radio" name="q3">
+                        <label for="q3">none of above</label>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="bdiv">
+            <button onclick="score()">Sumbit</button>
+        </div>
+    </form>
+</body>
+<script src="Script.js"></script>
+</html>
